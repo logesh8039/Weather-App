@@ -161,3 +161,35 @@ body{
 .loc-button:hover{
     background: #1a237e;
 }
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .left-info, .right-info {
+        width: 100%;
+        float: none;
+    }
+
+    .days-list {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .days-list li {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .today-weather {
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .loc-button {
+        padding: 8px;
+    }
+}
